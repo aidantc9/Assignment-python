@@ -1,0 +1,9 @@
+1a) This function uses python's sort algorithm therefore, it has a running time of about O(n*log_2(n)).
+
+1b) This uses sort again as well as a for loop that goes through the whole list ie n times. 
+This result in the same as the previous function being O(n*log_2(n)).
+
+1c) This function once again uses the sort method and a for loop that goes through the list n times therefore it is again O(n*log_2(n)).
+
+1d) This function sorts the list but it has a while loop nested inside a for loop both of which go through the whole list n times. 
+This results in the function having a overall runtime of O(n^2).
